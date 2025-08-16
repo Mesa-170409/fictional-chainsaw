@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sriracha&display=swap');
+
+*{
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+    background-color: #F5CBCB;
+}
+
+.gift {
+    position: relative;
+    width: 300px;
+    height: 150px;
+    border: 2px solid #333;
+    margin: 60px auto;
+    background-color: #f9f9f9;
+}
+
+.line-left, .line-right {
+    position: absolute;
+    width: 184px;
+    height: 2px;
+    background-color: #333;
+}
+
+.line-left {
+    left: 0;
+    transform: rotate(35deg);
+    transform-origin: left;
+}
+
+.line-right {
+    right: 0;
+    transform: rotate(-35deg);
+    transform-origin: right;
+}
+
+h2{
+    text-align: center;
+    margin-top: 218px;
+    margin-bottom: 59px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.btn:hover{
+    background: darkblue;
+}
